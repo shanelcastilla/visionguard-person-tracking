@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Generated evidence and logs
+events/
+*.log
+face_landmarker.task
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/.next/
+frontend/.next-build/
+frontend/out/
+frontend/coverage/
+frontend/.env.local
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
